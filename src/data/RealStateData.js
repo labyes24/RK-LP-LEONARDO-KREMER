@@ -26,7 +26,7 @@ const properties = [
     title: 'Netuno',
     region: 'Ingleses',
     description:
-      'IMÓVEL COM MATRÍCULA. Cobertura mobiliada, em excelente condomínio próximo ao mar com hidromassagem e frente Leste.Possui 2 dormitórios sendo uma suíte, 2 vagas de garagem cobertas, hobby box, hidromassagem, móveis sob medida, gás central, próximo a bares, restaurantes, mercados, farmácias e comércio local.',
+      '**IMÓVEL COM MATRÍCULA**\n\n Cobertura mobiliada, em excelente condomínio próximo ao mar com hidromassagem e frente Leste.\n\n Possui 2 dormitórios sendo uma suíte, 2 vagas de garagem cobertas, hobby box, hidromassagem, móveis sob medida, gás central, próximo a bares, restaurantes, mercados, farmácias e comércio local.',
     price: 'R$ 925.000,00',
     details: {
       square: '156,60 m²',
@@ -49,7 +49,7 @@ const properties = [
     title: 'Jardim Ingleses',
     region: 'Ingleses',
     description:
-      'IMÓVEL COM MATRÍCULA. Quer morar em uma linda residência com o conforto e a praticidade de uma casa de dois pisos, mas não abre mão da imponência de uma fachada moderna? Venha conhecer este maravilhoso projeto! Planejada e construída em um condomínio de alto padrão, essa casa é pensada em duas formas. No térreo ambientes integrados para o lazer e o convívio em família. No andar superior o conforto dos dormitórios e uma linda vista externa.',
+      '**IMÓVEL COM MATRÍCULA**\n\n Quer morar em uma linda residência com o conforto e a praticidade de uma casa de dois pisos, mas não abre mão da imponência de uma fachada moderna?\n\n Venha conhecer este maravilhoso projeto!\n\n Planejada e construída em um condomínio de alto padrão, essa casa é pensada em duas formas.\n\n No térreo ambientes integrados para o lazer e o convívio em família.\n\n No andar superior o conforto dos dormitórios e uma linda vista externa.',
     price: 'R$ 3.100.000,00',
     details: {
       square: '259,30 m²',
@@ -72,7 +72,7 @@ const properties = [
     title: 'Porto das Águas',
     region: 'Ingleses',
     description:
-      'IMÓVEL COM MATRÍCULA! Apartamento com vista mar, mobiliado, possui 02 dormitórios, sendo 01 suíte, banheiro social, sala de estar, cozinha e área de serviço sacada com sistema Heiki, churrasqueira e vaga de garagem coberta.POSIÇÃO SOLAR NORTE Ótimo imóvel localizado na região nobre dos Ingleses, a apenas 50 metros da praia, próximo a supermercado, farmácia e ponto de ônibus.Condomínio muito bom com portaria 24 horas e área de lazer.',
+      '**IMÓVEL COM MATRÍCULA!**\n\n Apartamento com vista mar, mobiliado, possui 02 dormitórios, sendo 01 suíte, banheiro social, sala de estar, cozinha e área de serviço sacada com sistema Heiki, churrasqueira e vaga de garagem coberta.\n\n POSIÇÃO SOLAR NORTE\n\n Ótimo imóvel localizado na região nobre dos Ingleses, a apenas 50 metros da praia, próximo a supermercado, farmácia e ponto de ônibus.\n\n Condomínio muito bom com portaria 24 horas e área de lazer.',
     price: 'R$ 850.000,00',
     details: {
       square: '70,83 m²',
