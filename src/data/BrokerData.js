@@ -57,7 +57,7 @@ const brokerProfile = {
   id: crypto.randomUUID(),
   name: 'Leonardo Kremer',
   CRECI: '44.221-F',
-  profileImage: '/broker/leo.png',
+  profileImage: '/broker/Leonardo.png',
   description: {
     title:
       '"Sou um pai dedicado, de altos padrões éticos e morais. Amo boa música, trabalhar com madeira de forma artesanal e meu hobby é vender imóveis e realizar sonhos!"',
