@@ -95,7 +95,75 @@ const propertiesPT = [
 
 /**  @type {Array<Property>} The Portuguese properties data */
 const propertiesES = [
-  // TODO: Add Spanish properties text
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '9805',
+    title: 'Netuno',
+    region: 'Ingleses',
+    description:
+      '**PROPIEDAD CON REGISTRO**\n\n Penthouse amueblado, en excelente condominio cerca del mar con jacuzzi y frente Este.\n\n Cuenta con 2 dormitorios, una suite, 2 estacionamientos techados, hobby box, jacuzzi, muebles a medida, gas central, cerca de bares, restaurantes, mercados, farmacias y comercios locales.',
+    price: 'R$ 925.000,00',
+    details: {
+      square: '156,60 m²',
+      rooms: '2',
+      bathrooms: '2',
+      garage: '2',
+    },
+    pictures: [
+      './properties/netuno-f01.jpg',
+      './properties/netuno-f02.jpg',
+      './properties/netuno-f03.jpg',
+      './properties/netuno-f04.jpg',
+      './properties/netuno-f05.jpg',
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '8929',
+    title: 'Jardim Ingleses',
+    region: 'Ingleses',
+    description:
+      '**PROPIEDAD CON REGISTRO**\n\n ¿Quieres vivir en una hermosa residencia con la comodidad y practicidad de una casa de dos pisos, pero no renunciar a la grandeza de una fachada moderna?\n\n ¡Ven y descubre este maravilloso proyecto!\n\n Planificada y construida en un condominio de alto nivel, esta casa está diseñada de dos maneras.\n\n En la planta baja se integran espacios para el ocio y las reuniones familiares.\n\n En la planta alta, la comodidad de los dormitorios y una hermosa vista exterior.',
+    price: 'R$ 3.100.000,00',
+    details: {
+      square: '259,30 m²',
+      rooms: '4',
+      bathrooms: '4',
+      garage: '2',
+    },
+    pictures: [
+      './properties/ingleses-f04.jpg',
+      './properties/ingleses-f01.jpg',
+      './properties/ingleses-f02.jpg',
+      './properties/ingleses-f03.jpg',
+      './properties/ingleses-f05.jpg',
+    ],
+  },
+  {
+    id: crypto.randomUUID(),
+    brokerId: BROKER_ID,
+    RKCode: '9808',
+    title: 'Porto das Águas',
+    region: 'Ingleses',
+    description:
+      '**PROPIEDAD CON REGISTRO**\n\n Apartamento con vista al mar, amueblado, cuenta con 02 habitaciones, 01 suite, baño de visitas, sala, cocina y área de lavado, balcón con sistema Heiki, asador y estacionamiento techado.\n\n POSICIÓN SOLAR NORTE\n\n Gran propiedad ubicada en la privilegiada región de los Ingleses, a sólo 50 metros de la playa, cerca de supermercado, farmacia y parada de autobús.\n\n Muy buen condominio con conserjería 24 horas y zona de ocio.',
+    price: 'R$ 850.000,00',
+    details: {
+      square: '70,83 m²',
+      rooms: '2',
+      bathrooms: '2',
+      garage: '1',
+    },
+    pictures: [
+      './properties/porto-f01.jpg',
+      './properties/porto-f02.jpg',
+      './properties/porto-f03.jpg',
+      './properties/porto-f04.jpg',
+      './properties/porto-f05.jpg',
+    ],
+  },
 ]
 
 /**
@@ -108,7 +176,7 @@ const propertiesES = [
 /** @type {PropertiesData} The properties data */
 const properties = {
   pt: propertiesPT,
-  // es: propertiesES,
+  es: propertiesES,
 }
 
 /**
